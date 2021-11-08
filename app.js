@@ -28,7 +28,7 @@ loginForm.addEventListener("submit", function (e) {
 function validarNombre(name) {
   const nombre = "felipe teran"
 
-  name = name.trim()
+  name = name.toLowerCase().trim()
 
   if (name) {
     if (name.includes(nombre)) {

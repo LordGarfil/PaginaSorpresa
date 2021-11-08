@@ -655,13 +655,18 @@ box-shadow: 5px 5px 7px -5px rgba(0,0,0,0.77);
 }
 
 @media (max-width: 768px) {
+
+	body{
+		overflow: hidden;
+	}
+
 	.container{
 		display: flex;
 		justify-content: center;
 	}
 
 	.text{
-		font-size: 1.8em
+		font-size: 1.3em
 	}
 
 	.presents {
